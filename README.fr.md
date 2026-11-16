@@ -57,7 +57,11 @@ Non testé : si vous activez le mode alors qu'un onglet sensible est en arrière
 
 ## Développer
 
-Pas de build ni de dépendance. Tests unitaires : `node --test`. Test complet dans un vrai Chrome, qui affiche aussi les mesures ci-dessus : `node scripts/e2e.mjs` (définissez `CHROME` si votre Chrome n'est pas à l'emplacement par défaut de macOS). Ajouter une langue : copiez `_locales/en/messages.json` dans `_locales/<code>/` et traduisez. Les icônes sont générées à partir de `icons/icon.svg`.
+Pas de build ni de dépendance. Tests unitaires : `node --test`. Test complet dans un vrai Chrome, qui affiche aussi les mesures ci-dessus : `node scripts/e2e.mjs` (définissez `CHROME` si votre Chrome n'est pas à l'emplacement par défaut de macOS). Ajouter une langue : copiez `_locales/en/messages.json` dans `_locales/<code>/` et traduisez. Les icônes sont générées à partir de `icons/icon.svg`. Pour créer le paquet du Chrome Web Store, lancez `sh scripts/package.sh`. Les textes et images de la fiche sont dans [store/](store/listing.md).
+
+## Confidentialité
+
+Rien ne quitte votre ordinateur. Voir la [politique de confidentialité](PRIVACY.md), en anglais.
 
 ## Licence
 
