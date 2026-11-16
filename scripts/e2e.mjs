@@ -1,5 +1,6 @@
 // End-to-end check in a real Chrome, and the timings quoted in the README.
-// Usage: node scripts/e2e.mjs   (set CHROME to your Chrome or Chromium binary if it isn't the macOS default)
+// Usage: node scripts/e2e.mjs   (set CHROME to your Chrome or Chromium binary if it isn't the macOS default,
+// and EXT to test another unpacked copy, such as the unzipped store package)
 // Drives a throwaway headless Chrome with its own profile over the DevTools pipe; your own Chrome is untouched.
 import { spawn } from 'node:child_process';
 import http from 'node:http';
@@ -9,7 +10,7 @@ import path from 'node:path';
 import zlib from 'node:zlib';
 import assert from 'node:assert/strict';
 
-const EXT = path.resolve(import.meta.dirname, '..');
+const EXT = path.resolve(process.env.EXT || path.join(import.meta.dirname, '..'));
 const CHROME = process.env.CHROME || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'out-of-frame-e2e-'));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
