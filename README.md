@@ -57,7 +57,7 @@ Not tested: if you turn the mode on while a sensitive tab is in the background, 
 
 ## Develop
 
-No build step, no dependencies. Tests: `node --test`. To add a language, copy `_locales/en/messages.json` to `_locales/<code>/` and translate it.
+No build step, no dependencies. Unit tests: `node --test`. End-to-end check in a real Chrome, which also prints the timings above: `node scripts/e2e.mjs` (set `CHROME` to your Chrome binary if it isn't in the default macOS location). To add a language, copy `_locales/en/messages.json` to `_locales/<code>/` and translate it. The icons are rendered from `icons/icon.svg`.
 
 ## License
 
