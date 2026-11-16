@@ -1,0 +1,16 @@
+{
+  "extDescription": { "message": "Pone una pantalla negra sobre los sitios que elijas mientras haces stream." },
+  "actionOn": { "message": "Out of Frame: modo stream activado" },
+  "actionOff": { "message": "Out of Frame: modo stream desactivado" },
+  "maskedTitle": { "message": "🔒 Oculto" },
+  "intro": { "message": "Haz clic en el icono o usa el atajo para activar o desactivar el modo stream. Mientras está activo, el icono muestra ON y los sitios de abajo se ven en negro, para ti y para quien vea tu pantalla." },
+  "shortcut": { "message": "Atajo:" },
+  "noShortcut": { "message": "ninguno" },
+  "shortcutHelp": { "message": "Cámbialo en chrome://extensions/shortcuts" },
+  "rulesLabel": { "message": "Sitios que ocultar (uno por línea)" },
+  "rulesHelp": { "message": "Un dominio también oculta sus subdominios. Una ruta oculta todas las URL que empiezan por ella. * sustituye cualquier cosa, y * por sí solo oculta todos los sitios." },
+  "examples": { "message": "Ejemplos:" },
+  "messageLabel": { "message": "Texto en la pantalla negra" },
+  "messageHelp": { "message": "Opcional. Déjalo vacío para una pantalla completamente negra." },
+  "saved": { "message": "Guardado." }
+}

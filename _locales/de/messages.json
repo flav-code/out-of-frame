@@ -1,0 +1,16 @@
+{
+  "extDescription": { "message": "Legt einen schwarzen Bildschirm über die Websites deiner Wahl, während du streamst." },
+  "actionOn": { "message": "Out of Frame: Stream-Modus an" },
+  "actionOff": { "message": "Out of Frame: Stream-Modus aus" },
+  "maskedTitle": { "message": "🔒 Verborgen" },
+  "intro": { "message": "Klicke auf das Symbol oder nutze das Tastenkürzel, um den Stream-Modus ein- oder auszuschalten. Solange er an ist, zeigt das Symbol ON und die Websites unten werden schwarz – für dich und für alle, die deinen Bildschirm sehen." },
+  "shortcut": { "message": "Tastenkürzel:" },
+  "noShortcut": { "message": "keins" },
+  "shortcutHelp": { "message": "Ändern unter chrome://extensions/shortcuts" },
+  "rulesLabel": { "message": "Zu verbergende Websites (eine pro Zeile)" },
+  "rulesHelp": { "message": "Eine Domain verbirgt auch ihre Subdomains. Ein Pfad verbirgt alle URLs, die damit beginnen. * steht für beliebige Zeichen, und * allein verbirgt alle Websites." },
+  "examples": { "message": "Beispiele:" },
+  "messageLabel": { "message": "Text auf dem schwarzen Bildschirm" },
+  "messageHelp": { "message": "Optional. Leer lassen für einen komplett schwarzen Bildschirm." },
+  "saved": { "message": "Gespeichert." }
+}

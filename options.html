@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Out of Frame</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font: 15px/1.5 system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+    textarea, input { width: 100%; box-sizing: border-box; font: 14px/1.5 ui-monospace, monospace; }
+    code, kbd { font: 13px ui-monospace, monospace; }
+  </style>
+</head>
+<body>
+  <h1>Out of Frame</h1>
+  <p data-i18n="intro"></p>
+  <p><span data-i18n="shortcut"></span> <kbd id="shortcut"></kbd> · <span data-i18n="shortcutHelp"></span></p>
+
+  <label for="rules"><strong data-i18n="rulesLabel"></strong></label>
+  <textarea id="rules" rows="10" spellcheck="false" aria-describedby="rules-help"></textarea>
+  <p id="rules-help">
+    <span data-i18n="rulesHelp"></span><br>
+    <span data-i18n="examples"></span>
+    <code>dashboard.stripe.com</code>, <code>example.com/admin</code>, <code>localhost:3000</code>, <code>*admin*</code>
+  </p>
+
+  <label for="message"><strong data-i18n="messageLabel"></strong></label>
+  <input id="message" type="text" aria-describedby="message-help">
+  <p id="message-help" data-i18n="messageHelp"></p>
+
+  <p id="saved" role="status"></p>
+
+  <script src="shared.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>

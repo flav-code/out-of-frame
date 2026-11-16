@@ -1,0 +1,16 @@
+{
+  "extDescription": { "message": "Puts a black screen over the sites you choose while you stream." },
+  "actionOn": { "message": "Out of Frame: stream mode on" },
+  "actionOff": { "message": "Out of Frame: stream mode off" },
+  "maskedTitle": { "message": "🔒 Hidden" },
+  "intro": { "message": "Click the icon or use the shortcut to turn stream mode on or off. While it is on, the icon shows ON and the sites below turn black, for you and for anyone watching your screen." },
+  "shortcut": { "message": "Shortcut:" },
+  "noShortcut": { "message": "none" },
+  "shortcutHelp": { "message": "Change it at chrome://extensions/shortcuts" },
+  "rulesLabel": { "message": "Sites to hide (one per line)" },
+  "rulesHelp": { "message": "A domain also hides its subdomains. A path hides every URL that starts with it. * stands for anything, and * on its own hides every site." },
+  "examples": { "message": "Examples:" },
+  "messageLabel": { "message": "Text on the black screen" },
+  "messageHelp": { "message": "Optional. Leave it empty for a plain black screen." },
+  "saved": { "message": "Saved." }
+}

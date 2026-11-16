@@ -1,0 +1,10 @@
+/* Injected only while stream mode is on (see background.js): every page starts black, before Chrome
+   draws anything, until content.js has read the settings and sets data-out-of-frame-clear. */
+html:not([data-out-of-frame-clear])::after {
+  content: '' !important;
+  display: block !important;
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: 2147483647 !important;
+  background: #000 !important;
+}

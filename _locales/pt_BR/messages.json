@@ -1,0 +1,16 @@
+{
+  "extDescription": { "message": "Coloca uma tela preta sobre os sites que você escolher enquanto faz stream." },
+  "actionOn": { "message": "Out of Frame: modo stream ativado" },
+  "actionOff": { "message": "Out of Frame: modo stream desativado" },
+  "maskedTitle": { "message": "🔒 Oculto" },
+  "intro": { "message": "Clique no ícone ou use o atalho para ativar ou desativar o modo stream. Enquanto ele está ativo, o ícone mostra ON e os sites abaixo ficam pretos, para você e para quem estiver vendo sua tela." },
+  "shortcut": { "message": "Atalho:" },
+  "noShortcut": { "message": "nenhum" },
+  "shortcutHelp": { "message": "Altere em chrome://extensions/shortcuts" },
+  "rulesLabel": { "message": "Sites para ocultar (um por linha)" },
+  "rulesHelp": { "message": "Um domínio também oculta seus subdomínios. Um caminho oculta todas as URLs que começam com ele. * substitui qualquer coisa, e * sozinho oculta todos os sites." },
+  "examples": { "message": "Exemplos:" },
+  "messageLabel": { "message": "Texto na tela preta" },
+  "messageHelp": { "message": "Opcional. Deixe vazio para uma tela totalmente preta." },
+  "saved": { "message": "Salvo." }
+}

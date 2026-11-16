@@ -1,0 +1,16 @@
+{
+  "extDescription": { "message": "Met un écran noir sur les sites de votre choix pendant que vous streamez." },
+  "actionOn": { "message": "Out of Frame : mode stream activé" },
+  "actionOff": { "message": "Out of Frame : mode stream désactivé" },
+  "maskedTitle": { "message": "🔒 Masqué" },
+  "intro": { "message": "Cliquez sur l'icône ou utilisez le raccourci pour activer ou couper le mode stream. Quand il est actif, l'icône affiche ON et les sites ci-dessous deviennent noirs, pour vous comme pour ceux qui regardent votre écran." },
+  "shortcut": { "message": "Raccourci :" },
+  "noShortcut": { "message": "aucun" },
+  "shortcutHelp": { "message": "Pour le changer : chrome://extensions/shortcuts" },
+  "rulesLabel": { "message": "Sites à cacher (un par ligne)" },
+  "rulesHelp": { "message": "Un domaine cache aussi ses sous-domaines. Un chemin cache toutes les URL qui commencent par lui. * remplace n'importe quoi, et * seul cache tous les sites." },
+  "examples": { "message": "Exemples :" },
+  "messageLabel": { "message": "Texte sur l'écran noir" },
+  "messageHelp": { "message": "Facultatif. Laissez vide pour un écran entièrement noir." },
+  "saved": { "message": "Enregistré." }
+}
